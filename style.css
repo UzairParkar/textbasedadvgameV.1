@@ -76,20 +76,322 @@
     }
 }
 .title{
-    width: 50%;
+    width: 30%;
     color: black;
     display: flex;
     justify-content: center;
-    margin-left: 210px;
+    margin-left: 350px;
     margin-top: 40px;
     font-size: 24px;
     border: 1px dotted;
     z-index: 10;
+    font-family: monospace;
 
 }   
 @media (max-width:600px){
     .title{
-        margin-left: 100px;
+        margin-left: 90px;
         font-size: 15px;
+        width: 50%;
     }
+}
+
+#TitleOne{
+    color: greenyellow;
+    display: none;
+    font-family: monospace;
+    margin-top: 30px;
+    font-size: x-large;
+}
+.sceneone{
+    display: none;
+    color: greenyellow;
+    border: 1px solid;
+    padding: 10px;
+}
+#sceneonetitle{
+    display: none;
+    color: greenyellow;
+    margin-top: 50px;
+}
+#empty1{
+    width: 70px;
+    height: 100px;
+    background-color:greenyellow;
+    opacity: 10%;
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    /* filter: blur(100px); */
+    display: none;
+    animation: empty1 infinite 15s;
+}
+
+@keyframes empty1 {
+    0%{
+        top:90px
+    }
+    10%{
+        top:100px
+
+    }
+    15%{
+        top:110px
+    }
+    20%{
+        top:120px
+    }
+    25%{
+        top:130;
+
+    }
+    30%{
+        top:140px
+    }
+    35%{
+        top:145px;
+
+    }
+    40%{
+        top:150px
+    }
+    45%{
+        top:160px
+    }
+    50%{
+        top:165px
+    }
+    55%{
+        top:170px
+    }
+    60%{
+        top:180px;
+    }
+    65%{
+        top: 195px;
+    }
+    70%{
+        top: 200px;
+    }
+    75%{
+        top: 210px;
+
+    }
+    80%{
+        top: 225px;
+
+    }
+    85%{
+        top: 230px;
+
+    }
+    90%{
+        top: 240px;
+
+    }
+    95%{
+        top: 245px;
+
+    }
+    100%{
+        top: 250px;
+
+    }
+
+}
+
+#empty2 {
+    width: 70px;
+    height: 100px;
+    background-color:greenyellow;
+    opacity: 10%;
+    position: absolute;
+    top: 360px;
+    left: 150px;
+    /* filter: blur(100px); */
+    display: none;
+    animation: empty2 infinite 15s;
+}
+@keyframes empty2 {
+    0%{
+        top: 130px
+    }
+    10%{
+        top: 145px
+
+    }
+    15%{
+        top:150px
+    }
+    20%{
+        top:155px
+    }
+    25%{
+        top: 160px;
+
+    }
+    30%{
+        top:165px
+    }
+    35%{
+        top: 170px;
+
+    }
+    40%{
+        top:175px
+    }
+    45%{
+        top:180px
+    }
+    50%{
+        top:185px
+    }
+    55%{
+        top:190px
+    }
+    60%{
+        top: 195px;
+
+    }
+    65%{
+        top: 200px;
+
+    }
+    70%{
+        top: 210px;
+
+    }
+    75%{
+        top: 220px;
+
+    }
+    80%{
+        top: 230px;
+
+    }
+    85%{
+        top: 240px;
+
+    }
+    90%{
+        top: 250px;
+
+    }
+    95%{
+        top: 265px;
+
+    }
+    100%{
+        top: 270px;
+        
+    }
+
+}
+
+#empty3 {
+    width: 70px;
+    height: 100px;
+    background-color:greenyellow;
+    opacity: 10%;
+    position: absolute;
+    top: 280px;
+    left: 250px;
+    display: none;
+    /* filter: blur(100px); */
+    animation: empty3 infinite 15s;
+}
+@keyframes empty3 {
+    0%{
+        top:190px
+    }
+    10%{
+        top: 195px;
+
+    }
+    15%{
+        top:200px
+    }
+    20%{
+        top:215px
+    }
+    25%{
+        top: 220px;
+
+    }
+    30%{
+        top:230px
+    }
+    35%{
+        top: 235px;
+
+    }
+    40%{
+        top:240px
+    }
+    45%{
+        top:240px
+    }
+    50%{
+        top:250px
+    }
+    55%{
+        top:255px
+    }
+    60%{
+        top:260px;
+
+    }
+    65%{
+        top:265px;
+    }
+    70%{
+        top:270px;
+    }
+    75%{
+        top: 275px;
+
+    }
+    80%{
+        top: 280px;
+
+    }
+    85%{
+        top: 285px;
+
+    }
+    90%{
+        top: 290px;
+
+    }
+    95%{
+        top: 295px;
+
+    }
+    100%{
+        top: 300px;
+        
+    }
+
+}
+.container-scene1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+
+}
+#detective {
+    display: none;
+    color: yellowgreen;
+    border: 1px dashed yellowgreen;
+    padding: 10px;
+    width: 150px;
+} 
+#detective button {
+    color: yellowgreen;
+    border: 1px solid yellowgreen;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 4px;
 }
